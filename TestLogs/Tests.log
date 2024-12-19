@@ -1,0 +1,6 @@
+INFO     TestScripts.test_DataLoad:test_DataLoad.py:21 Data comparison started for fact_sales
+INFO     TestScripts.test_DataLoad:test_DataLoad.py:28 Data comparison complete for fact_sales
+INFO     TestScripts.test_DataLoad:test_DataLoad.py:34 Data comparison started for fact_inventory
+INFO     TestScripts.test_DataLoad:test_DataLoad.py:39 Data comparison complete for fact_inventory
+INFO     TestScripts.test_DataLoad:test_DataLoad.py:46 Data comparison started for inventory_levels_by_store
+ERROR    TestScripts.test_DataLoad:test_DataLoad.py:54 Data mismatch for inventory_levels_by_store Data mismatch between src and TGT: select store_id,total_inventory from aggregated_inventory_levels order by store_id;

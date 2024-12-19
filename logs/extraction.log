@@ -1,0 +1,17 @@
+2024-12-11 18:15:13,187 - INFO - script execution started
+2024-12-11 18:15:13,187 - INFO - Data extraction started from sales csv
+2024-12-11 18:15:13,190 - INFO - sales csv file loaded successfully
+2024-12-11 18:15:13,261 - INFO - Data loaded to stg_sales_data in mysql
+2024-12-11 18:15:13,261 - INFO - Data extraction started from product csv
+2024-12-11 18:15:13,263 - INFO - product csv file loaded successfully
+2024-12-11 18:15:13,319 - INFO - Data loaded to stg_product_data in mysql
+2024-12-11 18:15:13,319 - INFO - Data extraction started from inventory xml
+2024-12-11 18:15:13,331 - INFO - inventory xml file data loaded
+2024-12-11 18:15:13,392 - INFO - data loaded to stg_inventory
+2024-12-11 18:15:13,392 - INFO - Data extraction started from supplier json
+2024-12-11 18:15:13,397 - INFO - supplier json file loaded successfully
+2024-12-11 18:15:13,444 - INFO - Data loaded to stg_supplier
+2024-12-11 18:15:13,495 - INFO - data extracted from oracle stores
+2024-12-11 18:15:13,542 - INFO - data loaded to stg_stores in mysql
+2024-12-11 18:15:13,543 - INFO - Data extraction completed
+2024-12-11 18:15:13,543 - INFO - script execution completed

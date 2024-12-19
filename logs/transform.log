@@ -1,0 +1,20 @@
+2024-12-12 15:55:29,598 - INFO - script execution started
+2024-12-12 15:55:29,599 - INFO - Data transformation started for filter_sales_data
+2024-12-12 15:55:29,742 - INFO - Data transformation completed for filter_sales_data
+2024-12-12 15:55:29,871 - INFO - Data loaded to trf_filtered_sales
+2024-12-12 15:55:29,872 - INFO - Data transformation started for router_sales_data_high
+2024-12-12 15:55:29,880 - INFO - Data transformation complete for router_sales_data_high
+2024-12-12 15:55:29,923 - INFO - Data loaded to trf_high_sales
+2024-12-12 15:55:29,923 - INFO - Data transformation started for router_sales_data_low
+2024-12-12 15:55:29,926 - INFO - Data transformation complete for router_sales_data_low
+2024-12-12 15:55:29,959 - INFO - Data loaded to trf_low_sales
+2024-12-12 15:55:29,960 - INFO - Data transformation started for agg_sales_data
+2024-12-12 15:55:29,963 - INFO - Data transformation complete for agg_sales_data
+2024-12-12 15:55:29,996 - INFO - Data loaded to trf_monthly_sales_summary_src
+2024-12-12 15:55:29,996 - INFO - Data transformation started for join_sales_data
+2024-12-12 15:55:30,008 - INFO - Data transformation complete for join_sales_data
+2024-12-12 15:55:30,045 - INFO - Data loaded to trf_sales_details
+2024-12-12 15:55:30,045 - INFO - data transformation started for agg_inventory_levels
+2024-12-12 15:55:30,049 - INFO - data transformation complete for agg_inventory_levels
+2024-12-12 15:55:30,082 - INFO - data loaded to trf_agg_inventory_levels
+2024-12-12 15:55:30,083 - INFO - script execution complete

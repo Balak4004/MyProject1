@@ -1,0 +1,26 @@
+2024-12-11 16:35:00,921 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-11 16:35:00,933 - INFO - Data load completed for fact_sales
+2024-12-11 16:35:00,933 - INFO - Executing load_inventory_fact function to load the fact_inventory
+2024-12-11 16:35:00,940 - ERROR - An error occurred in inventory_fact: (pymysql.err.IntegrityError) (1062, "Duplicate entry '105-1' for key 'fact_inventory.PRIMARY'")
+[SQL: insert into fact_inventory select * from staging_inventory;]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-12-11 16:35:00,940 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store
+2024-12-11 16:35:00,943 - INFO - Data load completed for inventory_levels_by_store
+2024-12-11 16:35:00,944 - INFO - Executing load_monthly_summary function to load monthly_summary 
+2024-12-11 16:35:00,948 - INFO - Data load completed for monthly_summary
+2024-12-11 16:42:55,976 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-11 16:42:55,980 - INFO - Data load completed for fact_sales
+2024-12-11 16:42:55,980 - INFO - Executing load_inventory_fact function to load the fact_inventory
+2024-12-11 16:42:55,984 - INFO - Data load completed for inventory_fact
+2024-12-11 16:42:55,984 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store
+2024-12-11 16:42:55,987 - INFO - Data load completed for inventory_levels_by_store
+2024-12-11 16:42:55,987 - INFO - Executing load_monthly_summary function to load monthly_summary 
+2024-12-11 16:42:55,990 - INFO - Data load completed for monthly_summary
+2024-12-11 16:45:21,118 - INFO - Executing load_fact_sales function to load the fact_sales table
+2024-12-11 16:45:21,126 - INFO - Data load completed for fact_sales
+2024-12-11 16:45:21,126 - INFO - Executing load_inventory_fact function to load the fact_inventory
+2024-12-11 16:45:21,130 - INFO - Data load completed for inventory_fact
+2024-12-11 16:45:21,130 - INFO - Executing load_inventory_levels_by_store function to load the inventory_levels_by_store
+2024-12-11 16:45:21,133 - INFO - Data load completed for inventory_levels_by_store
+2024-12-11 16:45:21,134 - INFO - Executing load_monthly_summary function to load monthly_summary 
+2024-12-11 16:45:21,138 - INFO - Data load completed for monthly_summary
